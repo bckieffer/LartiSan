@@ -1,0 +1,12 @@
+[package]
+name = "lartisan"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "LartiSan command-line tool"
+
+[dependencies]
+lartisan-core = { path = "../lartisan-core" }
+lartisan-scsi = { path = "../lartisan-scsi" }
+png = "0.17"
+ctrlc = "3"

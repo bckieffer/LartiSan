@@ -1,0 +1,8 @@
+[package]
+name = "lartisan-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Portable LightScribe protocol, geometry and rasterizer (no OS dependencies)"
+
+[dependencies]
